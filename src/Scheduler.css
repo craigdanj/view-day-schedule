@@ -1,0 +1,92 @@
+/* ---------------------------------------------------------------------------
+   Scheduler — converted from Vue <style scoped>
+   Uses BEM-style class names to avoid global collisions (Vue scoped them
+   automatically; plain CSS does not).
+--------------------------------------------------------------------------- */
+
+.scheduler__header {
+  margin: 0 0 10px;
+  color: #555;
+}
+
+.scheduler__date {
+  margin-right: 16px;
+  color: #555;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.scheduler__nav {
+  display: inline-block;
+  padding: 0 5px;
+  margin-right: 5px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  background: #efefef;
+  color: #555;
+}
+
+.scheduler__container {
+  width: 100%;
+  height: 250px;
+  border: 1px solid #ccc;
+  overflow-x: scroll;
+  position: relative;
+}
+
+.scheduler__timeline {
+  width: 2400px; /* EVENT_WIDTH (100px) × 24 hours */
+  height: 100%;
+}
+
+.scheduler__hour {
+  float: left;
+  width: 100px; /* must match EVENT_WIDTH */
+  height: 100%;
+  border-right: 1px solid #eee;
+  box-sizing: border-box;
+  color: #aaa;
+  font-size: 12px;
+  text-indent: 5px;
+  padding-top: 5px;
+}
+
+.scheduler__now {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  border-left: 1px solid red;
+  opacity: 0.5;
+  z-index: 0;
+}
+
+.scheduler__events {
+  position: absolute;
+  top: 40px;
+  z-index: 1;
+}
+
+.scheduler__event-row {
+  position: relative;
+  height: 36px;
+  margin-bottom: 10px;
+}
+
+.scheduler__event {
+  position: absolute;
+  top: 0;
+  width: 100px; /* must match EVENT_WIDTH */
+  height: 36px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 8px;
+  font-size: 12px;
+  box-shadow: 2px 2px 5px #ddd;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
