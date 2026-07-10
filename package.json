@@ -1,6 +1,6 @@
 {
   "name": "view-day-schedule",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "View your day's schedule along a horizontal timeline. Built for React.",
   "type": "module",
   "private": false,
@@ -44,7 +44,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/craig-helpshift/react-day-schedule.git"
+    "url": "git+https://github.com/craigdanj/view-day-schedule.git"
   },
   "keywords": [
     "react",
@@ -54,7 +54,7 @@
   "author": "Craig Johnson <craigdanj@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/craig-helpshift/react-day-schedule/issues"
+    "url": "https://github.com/craigdanj/view-day-schedule/issues"
   },
-  "homepage": "https://github.com/craig-helpshift/react-day-schedule#readme"
+  "homepage": "https://github.com/craigdanj/view-day-schedule#readme"
 }
