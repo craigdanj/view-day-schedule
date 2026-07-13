@@ -2,7 +2,7 @@
 
 A React component to view your day's schedule along a horizontal timeline.
 
-### **[View demo here](https://react-day-schedule.vercel.app/)**
+### **[View demo here](https://view-day-schedule.vercel.app/)**
 
 
 ## Install via npm
